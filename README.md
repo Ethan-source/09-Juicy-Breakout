@@ -1,4 +1,1 @@
-# Breakout
-A generic breakout game created in Godot.
-
-If you are needing a place to start on your project, this should be an easy project to make a little more "juicy".
+The purpose of this project was to add features to a clone of the game "brekaout" and make it interesting. In my project, I added a background image and *water noises* to make the gameplay make you feel like you're underwater. In order to make my game "juicier" I added some features like easing the animation of the paddle, made the ball spin whenever it collides, and made the tiles spin and fall when hit. Through the process of creating this project, I have learned the intricities of nodes, furthered my understanding of python and scripts, and tested my paitience when dealing with an unfamiliar program. I hope you enjoy :). 
