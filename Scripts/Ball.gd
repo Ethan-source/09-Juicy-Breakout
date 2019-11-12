@@ -39,13 +39,13 @@ func _physics_process(delta):
 	for body in bodies:
 		if body.is_in_group("Tiles"):
 			Game.change_score(body.points)
-			body.queue_free()
+			body.kill()
 		add_trauma(2.0)
 	
 	if position.y > get_viewport().size.y:
 		Game.change_lives(-1)
 		Starting.startCountdown(3)
-		queue_free()
+		
 
 func add_color(amount):
 	_color += amount

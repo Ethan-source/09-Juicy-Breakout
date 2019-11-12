@@ -21,6 +21,7 @@ anchor_mode = 0
 current = true
 
 [node name="Paddle" type="KinematicBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 544, 552 )
 script = ExtResource( 2 )
 
@@ -46,7 +47,6 @@ polygon = PoolVector2Array( 0, 632, 0, 0, 1024, 0, 1024, 632, 1064, 632, 1064, -
 script = ExtResource( 3 )
 
 [node name="Tile Row 1" type="Node2D" parent="Tiles"]
-editor/display_folded = true
 modulate = Color( 0, 0.27451, 1, 1 )
 
 [node name="Tile" parent="Tiles/Tile Row 1" instance=ExtResource( 4 )]
